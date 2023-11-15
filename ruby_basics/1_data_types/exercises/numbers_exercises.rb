@@ -7,11 +7,11 @@ def subtract(a, b)
 end
 
 def multiply(a, b)
-  # return the result of multiplying a times b
+  a * b
 end
 
 def divide(a, b)
-  # return the result of dividing a by b
+  a / b
 end
 
 def remainder(a, b)

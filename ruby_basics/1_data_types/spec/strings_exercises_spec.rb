@@ -16,7 +16,7 @@ RSpec.describe 'String Exercises' do
       expect(concatenate('world')).to eq('Hello world!')
     end
 
-    xit 'returns "Hello universe!"' do
+    it 'returns "Hello universe!"' do
       expect(concatenate('universe')).to eq('Hello universe!')
     end
   end

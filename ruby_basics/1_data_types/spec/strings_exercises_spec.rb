@@ -101,11 +101,11 @@ RSpec.describe 'String Exercises' do
 
   describe 'remove spaces exercise' do
 
-    xit 'removes a single space' do
+    it 'removes a single space' do
       expect(space_remover('white space')).to eq('whitespace')
     end
 
-    xit 'removes multiple spaces' do
+    it 'removes multiple spaces' do
       expect(space_remover('many white spaces')).to eq('manywhitespaces')
     end
   end

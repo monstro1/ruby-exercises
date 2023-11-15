@@ -79,11 +79,11 @@ RSpec.describe 'String Exercises' do
 
   describe 'length exercise' do
 
-    xit 'returns the length of a word' do
+    it 'returns the length of a word' do
       expect(string_length('longitude')).to eq(9)
     end
 
-    xit 'returns the length of a string with multiple words' do
+    it 'returns the length of a string with multiple words' do
       expect(string_length('i am quite long')).to eq(15)
     end
   end

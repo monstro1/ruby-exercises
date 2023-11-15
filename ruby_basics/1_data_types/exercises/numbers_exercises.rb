@@ -19,7 +19,7 @@ def remainder(a, b)
 end
 
 def float_division(a, b)
-  # return the result of dividing a by b as a float, rather than an integer
+  a.to_f / b
 end
 
 def string_to_number(string)

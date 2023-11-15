@@ -36,5 +36,5 @@ def reverse(string)
 end
 
 def space_remover(string)
-  string.gsub(" ", "");
+  string.gsub(" ", "")
 end

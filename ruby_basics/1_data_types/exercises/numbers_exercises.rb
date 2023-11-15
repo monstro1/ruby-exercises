@@ -1,10 +1,8 @@
 def add(a, b)
-  # return the result of adding a and b
   a + b
 end
 
 def subtract(a, b)
-  # return the result of subtracting b from a
   a - b
 end
 

@@ -23,7 +23,7 @@ RSpec.describe 'String Exercises' do
 
   describe 'substrings exercise' do
 
-    xit 'returns the first 4 letters of the word' do
+    it 'returns the first 4 letters of the word' do
       expect(substrings('chocolate')).to eq('choc')
     end
   end

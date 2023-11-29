@@ -16,22 +16,22 @@ RSpec.describe 'Array Exercises' do
 
   describe 'first element exercise' do
 
-    xit 'returns the first element of an array of numbers' do
+    it 'returns the first element of an array of numbers' do
       expect(first_element([2, 4, 6, 8, 10])).to eq(2)
     end
 
-    xit 'returns the first element of an array of strings' do
+    it 'returns the first element of an array of strings' do
       expect(first_element(['foo', 'bar'])).to eq('foo')
     end
   end
 
   describe 'third element exercise' do
 
-    xit 'returns the third element of an array of numbers' do
+    it 'returns the third element of an array of numbers' do
       expect(third_element([2, 4, 6, 8, 10])).to eq(6)
     end
 
-    xit 'returns nil if the array does not have a third element' do
+    it 'returns nil if the array does not have a third element' do
       expect(third_element(['foo', 'bar'])).to eq(nil)
     end
   end

@@ -33,11 +33,11 @@ def remove_first_three_elements(array)
 end
 
 def array_concatenation(original, additional)
-  # return an array adding the original and additional array together
+  original + additional
 end
 
 def array_difference(original, comparison)
-  # return an array of elements from the original array that are not in the comparison array
+  original - comparison
 end
 
 def empty_array?(array)

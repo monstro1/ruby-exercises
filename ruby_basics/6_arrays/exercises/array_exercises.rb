@@ -19,7 +19,7 @@ def last_three_elements(array)
 end
 
 def add_element(array)
-  # add an element (of any value) to the array
+  array << "chungus"
 end
 
 def remove_last_element(array)

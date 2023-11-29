@@ -41,7 +41,7 @@ def array_difference(original, comparison)
 end
 
 def empty_array?(array)
-  # return true if the array is empty
+  array.empty?
 end
 
 def reverse(array)

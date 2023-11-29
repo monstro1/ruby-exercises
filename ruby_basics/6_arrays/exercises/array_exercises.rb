@@ -23,9 +23,7 @@ def add_element(array)
 end
 
 def remove_last_element(array)
-  # Step 1: remove the last element from the array
-
-  # Step 2: return the array (because Step 1 returns the value of the element removed)
+  array.pop
   array
 end
 

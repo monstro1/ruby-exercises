@@ -11,7 +11,11 @@ def third_element(array)
 end
 
 def last_three_elements(array)
-  # return the last 3 elements of the array
+  if array.length >= 3
+    array[-3, 3]
+  else
+    array
+  end
 end
 
 def add_element(array)

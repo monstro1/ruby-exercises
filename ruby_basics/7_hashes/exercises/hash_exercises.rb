@@ -23,7 +23,11 @@ def remove_favorite_number(favorite_list)
 end
 
 def favorite_categories(favorite_list)
-  # return the keys of favorite_list
+  favorites = []
+  favorite_list.each_key do |key|
+    favorites << key
+  end
+  favorites
 end
 
 def favorite_items(favorite_list)

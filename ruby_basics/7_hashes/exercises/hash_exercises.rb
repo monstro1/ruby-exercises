@@ -31,7 +31,11 @@ def favorite_categories(favorite_list)
 end
 
 def favorite_items(favorite_list)
-  # return the values of favorite_list
+  favorites = []
+  favorite_list.each_value do |value|
+    favorites << value
+  end
+  favorites
 end
 
 def merge_favorites(original_list, additional_list)

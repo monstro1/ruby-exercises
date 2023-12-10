@@ -42,6 +42,9 @@ end
 # return value: the character's ordinal number
 # explicit return value: 'Input Error' if character's length does not equal 1
 # hint: use String#ord
+def ascii_code(character)
+  character.ord
+end
 
 
 # method name: #pet_pun
